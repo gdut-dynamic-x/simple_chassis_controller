@@ -1,1 +1,7 @@
-subscriber_topic: /temperature
+controller:
+  simple_chassis_controller:
+    type: simple_chassis_controller/SimpleChassisController
+
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
