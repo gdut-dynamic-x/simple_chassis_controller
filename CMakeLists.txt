@@ -50,7 +50,7 @@ include_directories(
 )
 
 ## Declare cpp executables
-add_executable(${PROJECT_NAME}
+add_library(${PROJECT_NAME}
     src/${PROJECT_NAME}.cpp
     )
 
@@ -59,7 +59,6 @@ add_dependencies(${PROJECT_NAME}
     )
 
 target_link_libraries(${PROJECT_NAME}
-    ${PROJECT_NAME}_core
     ${catkin_LIBRARIES}
     )
 
