@@ -55,7 +55,7 @@
 要求：
 
 1. 以 rm_template 为模版 创建新仓库, 名为 hero_chassis_controller
-2. 正确填写 **CMakeList.txt** 和 **package.xml** 在完成后面的需求时记更新
+2. 正确填写 **CMakeList.txt**, **package.xml**, **README.md**, 在完成后面的需求时记更新
 
 参考资料：
 
