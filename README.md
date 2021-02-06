@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is controller example/template for an assignment which assesses DynamicX reserve member.
+This is controller example/template for the assignment which assess DynamicX reserve member.
 
 **Keywords:** RoboMaster, ROS, ros_control
 
