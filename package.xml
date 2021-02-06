@@ -14,11 +14,11 @@
   <!-- depend: build, export, and execution dependency -->
   <depend>roscpp</depend>
   <depend>roslint</depend>
-  <depend>control_toolbox</depend>
   <depend>controller_interface</depend>
-  <depend>forward_command_controller</depend>
   <depend>hardware_interface</depend>
+  <depend>forward_command_controller</depend>
   <depend>pluginlib</depend>
+  <depend>rm_description</depend>
 
   <export>
     <controller_interface plugin="${prefix}/simple_chassis_controller_plugins.xml"/>

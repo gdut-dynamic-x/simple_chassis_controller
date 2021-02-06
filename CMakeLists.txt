@@ -14,6 +14,10 @@ find_package(catkin REQUIRED
     COMPONENTS
     roscpp
     roslint
+    controller_interface
+    hardware_interface
+    forward_command_controller
+    pluginlib
     )
 
 ###################################
@@ -33,7 +37,10 @@ catkin_package(
     CATKIN_DEPENDS
     roscpp
     roslint
-
+    controller_interface
+    hardware_interface
+    forward_command_controller
+    pluginlib
     DEPENDS
 )
 
