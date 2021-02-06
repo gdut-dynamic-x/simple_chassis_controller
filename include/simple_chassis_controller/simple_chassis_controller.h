@@ -22,7 +22,7 @@ class SimpleChassisController : public controller_interface::Controller<hardware
 
   hardware_interface::JointHandle front_left_joint_, front_right_joint_, back_left_joint_, back_right_joint_;
  private:
-  int state_;
+  int state_{};
   ros::Time last_change_;
 };
 }// namespace simple_chassis_controller
