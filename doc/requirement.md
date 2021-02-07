@@ -159,6 +159,16 @@
 
 **分数： 15**
 
+要求：
+
+1. 自由发挥
+2. 如 使用 teleop_twist_keyboard 键盘操控底盘
+3. 如 可在配置文件设定 底盘加速度
+
+参考资料：
+
+- [teleop_twist_keyboard](http://wiki.ros.org/teleop_twist_keyboard)
+
 [rm_description]: https://github.com/gdut-dynamic-x/rm_description
 
 [simple_chassis_controller]: https://github.com/gdut-dynamic-x/simple_chassis_controller
