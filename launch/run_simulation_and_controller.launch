@@ -4,9 +4,9 @@
     <arg name="load_gimbal" value="false"/>
     <arg name="load_shooter" value="false"/>
     <arg name="load_gazebo" value="true"/>
-    <arg name="use_rm_gazebo" value="true"/>
+    <arg name="use_rm_gazebo" value="false"/>
     <arg name="roller_type" value="realistic"/>
-    <arg name="paused" value="false"/>
+    <arg name="paused" value="true"/>
   </include>
 
   <rosparam file="$(find simple_chassis_controller)/config/controllers.yaml" command="load"/>
