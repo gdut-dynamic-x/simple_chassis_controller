@@ -1,5 +1,14 @@
 <launch>
-  <include file="$(find rm_description)/launch/hero_chassis_only.launch"/>
+  <include file="$(find rm_description)/launch/hero.launch">
+    <arg name="load_chassis" value="true"/>
+    <arg name="load_gimbal" value="false"/>
+    <arg name="load_shooter" value="false"/>
+    <arg name="load_gazebo" value="true"/>
+    <arg name="use_rm_gazebo" value="true"/>
+    <arg name="roller_type" value="realistic"/>
+    <arg name="paused" value="false"/>
+  </include>
+
   <rosparam file="$(find simple_chassis_controller)/config/controllers.yaml" command="load"/>
   <!-- load the controllers -->
   <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
