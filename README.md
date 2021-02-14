@@ -31,10 +31,6 @@ research code, expect that it changes often and any fitness for a particular pur
 - hardware_interface
 - pluginlib
 
-Install dependencies:
-
-    sudo rosdep install --from-paths src
-
 #### Building
 
 To build from source, clone the latest version from this repository into your catkin workspace and compile the package
@@ -44,6 +40,7 @@ using
 	git clone git@github.com:gdut-dynamic-x/rm_description.git
     # git clone https://github.com/gdut-dynamic-x/rm_description.git
 	cd ../
+	rosdep install --from-paths . --ignore-src
 	catkin build # Actually nothing to build
 
 ## Usage
