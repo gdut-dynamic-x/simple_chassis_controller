@@ -14,7 +14,7 @@
 **总分: 15**
 如果没有完成必做需求，没有资格参加答辩。
 
-#### 1. 运行 [rm_description]
+#### 1. 运行 [rm_description]的 assignment分支
 
 **分数: 5**
 
